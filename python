@@ -1,0 +1,16 @@
+--version1--
+def greet_users(user_list: list):
+    """
+    Greets each user in the provided list with a formatted message.
+    """
+    for user in user_list:
+        # Using f-strings for efficient string formatting
+        print(f"Hello, {user}! Welcome to the April28Repo project.")
+
+if __name__ == "__main__":
+    # A simple list of names to iterate through
+    team_members = ["Alice", "Bob", "Charlie"]
+    
+    print("--- Starting Greet Script ---")
+    greet_users(team_members)
+    print("--- Script Completed ---")
