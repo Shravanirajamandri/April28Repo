@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 --version1--
 def greet_users(user_list: list):
     """
@@ -14,3 +15,24 @@ if __name__ == "__main__":
     print("--- Starting Greet Script ---")
     greet_users(team_members)
     print("--- Script Completed ---")
+--version2--
+
+def check_and_read_file(file_path):
+    try:
+        # Checking if the file exists before opening
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as file:
+                content = file.read()
+                print(f"--- Content of {file_path} ---")
+                print(content)
+        else:
+            print(f"Error: The file '{file_path}' does not exist.")
+            
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+if __name__ == "__main__":
+    # You can change this to a filename in your folder2
+    target_file = "sample.txt" 
+    check_and_read_file(target_file)
+
