@@ -13,7 +13,6 @@
    14  timedatectl
    15  date
    16  clear
-   17  find of
    18  date
    19  date +"d"
    20  date +"%d"
@@ -35,9 +34,7 @@
    37  free -m
    38  free -h
    39  df -h
-   40  find of
  Commands on linux session 2:
- 
   1  ll
     2  ls
     3  touch pizza
@@ -322,7 +319,6 @@
   282  cat jeans
   283  sed -n '2,5p' jeans
   284  head -n 2 jeans
-  285  find of
   327  rm -rf comedy
   328  ll
   329  cat > comedy
@@ -332,4 +328,3 @@
   333  cat coedy
   334  pwd
   335  cat comedy
-  336  find of
