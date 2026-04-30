@@ -16,4 +16,6 @@ VALUES
 (3, 'Charlie', 'Davis', 'Engineering', 92000.00, '2020-11-20'),
 (4, 'Diana', 'Prince', 'HR', 55000.00, '2023-01-10');
 
+
 ----test of conflicts
+----merge conflicts--develop
